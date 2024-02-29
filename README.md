@@ -22,8 +22,8 @@ The three simulations cover a (128 $h^{-1} \mathrm{Mpc})^3$ volume with $2 \time
 #### Subgrid Parameters:
 - **FSN:** Fractional supernova energy that is converted to wind
 - **VEL:** Supernova wind velocity [km/s]
-- **TEXP:** AGN Feedback Energy ($ \Delta_T 10^\mathrm{TEXP}$ K)
-- **BETA:** Bondi equation boost factor $ \dot{M}_\mathrm{Bondi} \propto n_H^\beta$
+- **TEXP:** AGN Feedback Energy ($\Delta_T 10^\mathrm{TEXP}$ K)
+- **BETA:** Bondi equation boost factor $\dot{M}_\mathrm{Bondi} \propto (n_H/\bar{n}_H)^\beta$
 
 | Simulation | FSN   | VEL     | TEXP | BETA   |
 |------------|-------|---------|------|--------|
