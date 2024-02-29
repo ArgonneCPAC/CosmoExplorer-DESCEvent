@@ -11,17 +11,19 @@ CosmoExplorer is an **in-development** data sharing platform hosted at the Argon
 All simulations use a Planck cosmology with parameters $h= 0.6766$, $\Omega_\text{CDM}=0.261$, $\Omega_b=0.049$, $\sigma_8=0.8102$, and $n_s=0.9665$.
 ### 1. Gravity-Only Simulations
 We provide data from 8 snapshots (ranging from z=0 to z=2) of the following simulations:
-- **LastJourney:**
-- **LastJourneySV:**
+- **LastJourney:** $10752^3$ particles in a $(3400 h^{-1}\mathrm{Mpc})^3$ box, $m_p = 2.7174 \times 10^9$ $h^{-1}M_\odot$.
+- **LastJourneySV:** $1024^3$ particles in a $(250 h^{-1}\mathrm{Mpc})^3$ box, $m_p = 1.2506 \times 10^9$ $h^{-1}M_\odot$.
 
 ### 2. Hydro Simulations:
 We provide data from 8 snapshots (ranging from z=0 to z=2) of three simulations run from the same intial conditions, but with different subgrid model parameters: **SCIDAC_T001**, **SCIDAC_T002**, and **SCIDAC_T003**.
 
+The three simulations cover a (128 $h^{-1} \mathrm{Mpc})^3$ volume with $2 \times 512^3$ particles. The particle masses are $1.13 \times 10^9$ $h^{-1}M_\odot$ for DM and $\sim2 \times 10^8$ $h^{-1}M_\odot$ for primordial gas.
+
 #### Subgrid Parameters:
-- **FSN:**
-- **VEL:**
-- **TEXP:** 
-- **BETA:**
+- **FSN:** Fractional supernova energy that is converted to wind
+- **VEL:** Supernova wind velocity [km/s]
+- **TEXP:** AGN Feedback Energy ($ \Delta_T 10^\mathrm{TEXP}$ K)
+- **BETA:** Bondi equation boost factor $ \dot{M}_\mathrm{Bondi} \propto n_H^\beta$
 
 | Simulation | FSN   | VEL     | TEXP | BETA   |
 |------------|-------|---------|------|--------|
@@ -29,6 +31,8 @@ We provide data from 8 snapshots (ranging from z=0 to z=2) of three simulations 
 | T002       | 0.5613| 250.611 | 10.00| 0.6968 |
 | T003       | 0.6968| 341.979 | 8.694| 0.0581 |
 
+> [!IMPORTANT]
+> These simulations are provided for demonstration purposes. Don't use them outside of this demo.
 
 ## Caveats and known issues
 - **This platform is in an early development stage**, so expect things to fail and be patient :). If you run into issues, please report them (see below), this will help us to improve the application.
