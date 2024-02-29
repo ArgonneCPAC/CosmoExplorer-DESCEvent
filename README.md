@@ -21,6 +21,7 @@ We provide data from 8 snapshots (ranging from z=0 to z=2) of the following simu
 
 ## Caveats and known issues
 - **This platform is in an early development stage**, so expect things to fail and be patient :). If you run into issues, please report them (see below), this will help us to improve the application.
+- **error messages:** errors that occur during the run **are not cleanly forwarded to the webpage** at the moment. Open the flow on Globus to see more info, and ask us; we can look up the exact error and let you know.
 - **halo-particle queries:** The query will fail if the halo cannot be found (invalid `fof_halo_tag`) or if the halo is below the particle-output mass threshold listed above. Currently, there is no "nice" error message; instead, you'll have to open the flow in Globus and look at the event details.
 
 ## Reporting Issues
@@ -30,3 +31,4 @@ If you find an issue or error not listed above, please let us know on Slack, or 
 
 
 ## Acknowledgements
+This project is using resources of the Argonne Leadership Computing Facility, which is a DOE Office of Science User Facility supported under Contract DE-AC02-06CH11357. The work at Argonne National Laboratory is supported under the U.S. DOE contract DE-AC02-06CH11357.
