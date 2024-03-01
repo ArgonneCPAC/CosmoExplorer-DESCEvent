@@ -12,12 +12,24 @@ All simulations use a Planck cosmology with parameters $h= 0.6766$, $\Omega_\tex
 ### 1. Gravity-Only Simulations
 We provide data from 8 snapshots (ranging from z=0 to z=2) of the following simulations:
 - **LastJourney:** $10752^3$ particles in a $(3400 h^{-1}\mathrm{Mpc})^3$ box, $m_p = 2.7174 \times 10^9$ $h^{-1}M_\odot$.
-- **LastJourneySV:** $1024^3$ particles in a $(250 h^{-1}\mathrm{Mpc})^3$ box, $m_p = 1.2506 \times 10^9$ $h^{-1}M_\odot$.
+- **LastJourneySV:** small-volume version of the Last Journey simulation: $1024^3$ particles in a $(250 h^{-1}\mathrm{Mpc})^3$ box, $m_p = 1.2506 \times 10^9$ $h^{-1}M_\odot$.
+
+> [!NOTE]
+Queries outside the following mass ranges  will most likely not return any results:
+> - LastJourney: $M \in [10^{11}, 10^{16}]h^{-1}M_\odot$
+> - LastJourneySV: $M \in [10^{11}, 10^{15}]h^{-1}M_\odot$
 
 ### 2. Hydro Simulations:
 We provide data from 8 snapshots (ranging from z=0 to z=2) of three simulations run from the same intial conditions, but with different subgrid model parameters: **SCIDAC_T001**, **SCIDAC_T002**, and **SCIDAC_T003**.
 
 The three simulations cover a (128 $h^{-1} \mathrm{Mpc})^3$ volume with $2 \times 512^3$ particles. The particle masses are $1.13 \times 10^9$ $h^{-1}M_\odot$ for DM and $\sim2 \times 10^8$ $h^{-1}M_\odot$ for primordial gas.
+
+> [!NOTE]
+Queries outside the following mass ranges  will most likely not return any results:
+> - $M_{200c} \in [10^{11}, 6 \times 10^{14}]h^{-1}M_\odot$
+> - $M_{500c} \in [10^{11}, 4 \times 10^{14}]h^{-1}M_\odot$
+> - $R_{200c} \in [0.05, 1.4]h^{-1}\mathrm{Mpc}$
+
 
 #### Subgrid Parameters:
 - **FSN:** Fractional supernova energy that is converted to wind
