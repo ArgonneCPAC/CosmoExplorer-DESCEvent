@@ -3,7 +3,9 @@
 CosmoExplorer is an **in-development** data sharing platform hosted at the Argonne National Laboratory. The application leverages Globus Compute and Transfer to run queries and predefined analysis scripts on our simulation data products, **using compute resources at the Argonne Leadership Computing Facility**
 
 
-## Links
+## Getting Access
+- You need to have a Globus account. Send us your account email and we'll add it to the correct Globus group.
+- You will get an email that you have been invited to the Globus group. **You need to accept the invitation prior to accessing our page, otherwise the login will be denied!**
 - HACC Compute Portal: [https://cosmoexplorer.alcf.anl.gov](https://cosmoexplorer.alcf.anl.gov)
 
 ## Available Datasets
