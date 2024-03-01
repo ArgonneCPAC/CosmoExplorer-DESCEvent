@@ -7,6 +7,7 @@ CosmoExplorer is an **in-development** data sharing platform hosted at the Argon
 - You need to have a Globus account. Send us your account email and we'll add it to the correct Globus group.
 - You will get an email that you have been invited to the Globus group. **You need to accept the invitation prior to accessing our page, otherwise the login will be denied!**
 - HACC Compute Portal: [https://cosmoexplorer.alcf.anl.gov](https://cosmoexplorer.alcf.anl.gov)
+- [Python Notebook](https://nbviewer.org/github/ArgonneCPAC/CosmoExplorer-DESCEvent/blob/main/data_manipulation_examples.ipynb) with examples
 
 ## Available Datasets
 
