@@ -48,6 +48,9 @@ Queries outside the following mass ranges  will most likely not return any resul
 > [!IMPORTANT]
 > These simulations are provided for demonstration purposes. Don't use them outside of this demo.
 
+## How to read / use the data
+**Florian Keruzore provided this excellent [Python Notebook](https://nbviewer.org/github/ArgonneCPAC/CosmoExplorer-DESCEvent/blob/main/data_manipulation_examples.ipynb)** that describes the data contained in the HDF5 files. It also includes some amazing post-processing examples!
+
 ## Caveats and known issues
 - **This platform is in an early development stage**, so expect things to fail and be patient :). If you run into issues, please report them (see below), this will help us to improve the application.
 - **error messages:** errors that occur during the run **are not cleanly forwarded to the webpage** at the moment. Open the flow on Globus to see more info, and ask us; we can look up the exact error and let you know.
